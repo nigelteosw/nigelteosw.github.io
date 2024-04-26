@@ -1,7 +1,7 @@
 body,html {
   margin: 0;
   font: bold 14px/1.4 'Open Sans', arial, sans-serif;
-  background: #000;
+  background: #FAF9F6;
 }
 ul { 
   margin: 150px auto 0; 
@@ -10,6 +10,7 @@ ul {
   display: table;
   width: 600px;
   text-align: center;
+  justify-content: top;
 }
 li { 
   display: table-cell; 
@@ -17,7 +18,7 @@ li {
   padding: 15px 0;
 }
 a {
-  color: #fff;
+  color: #000;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.15em;
@@ -34,7 +35,7 @@ a:after {
   height: 2px;
   left: 50%;
   position: absolute;
-  background: #fff;
+  background: #000;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
