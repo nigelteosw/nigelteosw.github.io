@@ -6,7 +6,8 @@
   --overlay: #f2e9e1;
   --muted: #9893a5;
   --subtle: #797593;
-  --text: #575279;
+  /* --navbartext: #575279; */
+  --text: #030507;
   --highlight: #b4637a;
 }
 
@@ -17,7 +18,8 @@
   --overlay: #393552;
   --muted: #6e6a86;
   --subtle: #908caa;
-  --text: #e0def4;
+  /* --navbartext: #e0def4; */
+  --text: #F8FAFC;
   --highlight: #eb6f92;
 }
 
@@ -25,16 +27,18 @@ body {
   margin: 0;
   font: bold 14px/1.4 'Open Sans', Arial, sans-serif;
   background: var(--base);
+  color: var(--text);
+  padding: 0;
 }
 
 ul {
-  margin: 150px auto 0;
   padding: 0;
   list-style: none;
   display: table;
   width: 600px;
   text-align: center;
   justify-content: top;
+  margin: 0 auto;
 }
 
 li {
@@ -71,6 +75,40 @@ a:hover:after {
   left: 0;
 }
 
+img {
+  max-width: 500px;
+  height: auto;
+}
+.navbar {
+  background: var(--overlay);
+  padding: 20px 0;
+  text-align: center;
+}
+
+.main-content {
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+/* Round button styles */
+.top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--accent); /* Change to your preferred color */
+  color: var(--text);
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
 @media screen and (max-height: 300px) {
   ul {
     margin-top: 40px;
@@ -92,3 +130,18 @@ a:hover:after {
 .dark-mode a:hover:after {
   background: var(--text);
 }
+
+/* Footer Styles */
+.footer {
+  background-color: var(--base); 
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  color: var(--text); 
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Social Buttons */
