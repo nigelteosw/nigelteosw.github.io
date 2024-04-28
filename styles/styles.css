@@ -8,6 +8,9 @@
   --subtle: #333333; /* darker grey */
   --text: #000000; /* black */
   --highlight: #cccccc; /* grey */
+
+  --transition-duration: 1s; /* Adjust transition duration as needed */
+  --transition-property: background-color, color; /* Add more properties to transition if needed */
 }
 
 /* Dark Theme Colors */
@@ -19,6 +22,9 @@
   --subtle: #cccccc; /* light grey */
   --text: #ffffff; /* white */
   --highlight: #999999; /* grey */
+
+  --transition-duration: 1s; /* Adjust transition duration as needed */
+  --transition-property: background-color, color; /* Add more properties to transition if needed */
 }
 
 body {
@@ -26,6 +32,7 @@ body {
   background: var(--base);
   color: var(--text);
   padding: 0;
+  transition: background-color var(--transition-duration), color var(--transition-duration);
 }
 
 .navbar {

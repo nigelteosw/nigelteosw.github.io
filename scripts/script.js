@@ -55,9 +55,3 @@ document.addEventListener("keydown", function (event) {
   }
 });
 
-function scrollToTop() {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth",
-  });
-}
