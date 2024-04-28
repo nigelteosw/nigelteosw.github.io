@@ -52,10 +52,22 @@ window.addEventListener("resize", getDimensions);
 
 document.addEventListener("keydown", function (event) {
   if (event.key === "x") {
-    document.body.classList.toggle("dark-mode");
+    const isDarkMode = document.body.classList.toggle("dark-mode");
     iframeDoc.body.classList.toggle("dark-mode");
+    localStorage.setItem("darkMode", isDarkMode);
   }
 });
+
+// Check localStorage for user's dark mode preference when the page loads
+window.addEventListener("DOMContentLoaded", () => {
+  const isDarkMode = localStorage.getItem("darkMode") === "true";
+
+  if (isDarkMode) {
+    document.body.classList.add("dark-mode");
+    iframeDoc.body.classList.add("dark-mode");
+  }
+});
+
 
 let paragraph = [...document.querySelectorAll('p')];
 let spans = [];

@@ -1,30 +1,33 @@
 /* Theme Colors */
 :root {
   /* Light Theme Colors */
-  --base: #ffffff; /* white */
-  --surface: #f2f2f2; /* light grey */
-  --overlay: #cccccc; /* grey */
-  --muted: #666666; /* dark grey */
-  --subtle: #333333; /* darker grey */
-  --text: #000000; /* black */
-  --highlight: #cccccc; /* grey */
+  --base: #ffffff; 
+  --surface: #f2f2f2; 
+  --overlay: #cccccc; 
+  --muted: #666666; 
+  --subtle: #333333; 
+  --text: #000000; 
+  --highlight: #cccccc; 
 
-  --transition-duration: 1s; 
+  --slow-transition-duration: 1s; 
+  --fast-transition-duration: 0.3s;
   --transition-property: background-color, color; 
 }
 
 /* Dark Theme Colors */
 .dark-mode {
-  --base: #1f1f1f; /* very dark grey */
-  --surface: #333333; /* dark grey */
-  --overlay: #666666; /* grey */
-  --muted: #999999; /* lighter grey */
-  --subtle: #cccccc; /* light grey */
-  --text: #ffffff; /* white */
-  --highlight: #999999; /* grey */
+  --base: #1f1f1f; 
+  --surface: #333333; 
+  --overlay: #666666; 
+  --muted: #999999; 
+  --subtle: #cccccc; 
+  --text: #ffffff; 
+  --highlight: #999999; 
 
-  --transition-duration: 1s;
+  --slow-transition-duration: 1s;
+  --fast-transition-duration: 0.3s;
   --transition-property: background-color, color; 
+
 }
 
 body {
@@ -32,7 +35,8 @@ body {
   background: var(--base);
   color: var(--text);
   padding: 0;
-  transition: background-color var(--transition-duration), color var(--transition-duration);
+  transition: background-color var(--slow-transition-duration), color var(--slow-transition-duration);
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -101,7 +105,6 @@ body {
   min-height: 600px;
   display: flex;
   justify-content: center;
-  /* padding: 2rem; */
 }
 
 .container {
