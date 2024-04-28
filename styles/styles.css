@@ -9,8 +9,8 @@
   --text: #000000; /* black */
   --highlight: #cccccc; /* grey */
 
-  --transition-duration: 1s; /* Adjust transition duration as needed */
-  --transition-property: background-color, color; /* Add more properties to transition if needed */
+  --transition-duration: 1s; 
+  --transition-property: background-color, color; 
 }
 
 /* Dark Theme Colors */
@@ -23,8 +23,8 @@
   --text: #ffffff; /* white */
   --highlight: #999999; /* grey */
 
-  --transition-duration: 1s; /* Adjust transition duration as needed */
-  --transition-property: background-color, color; /* Add more properties to transition if needed */
+  --transition-duration: 1s;
+  --transition-property: background-color, color; 
 }
 
 body {
@@ -120,6 +120,10 @@ body {
   line-height: 1.6;
 }
 
+.container span {
+  opacity: .1;
+}
+
 /* Minimap */
 .minimap__container{
   position: fixed;
@@ -165,7 +169,7 @@ body {
 }
 
 .dark-mode {
-  background: var(--base);
+  background-color: var(--base);
 }
 
 .dark-mode a {
