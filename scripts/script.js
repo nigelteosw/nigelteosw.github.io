@@ -48,11 +48,12 @@ getDimensions()
 window.addEventListener('scroll', trackScroll)
 window.addEventListener('resize', getDimensions)
 
-// document.addEventListener("keydown", function (event) {
-//   if (event.key === "x") {
-//     document.body.classList.toggle("dark-mode");
-//   }
-// });
+document.addEventListener("keydown", function (event) {
+  if (event.key === "x") {
+    document.body.classList.toggle("dark-mode");
+    iframeDoc.body.classList.toggle("dark-mode");
+  }
+});
 
 function scrollToTop() {
   window.scrollTo({

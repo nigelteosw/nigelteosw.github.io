@@ -84,6 +84,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+  background: var(--base);
 }
 
 .content section {
@@ -125,7 +126,7 @@ body {
 .minimap__size{
   position: relative;
   z-index: 5;
-  border: 2px solid white;
+  border: 2px solid var(--base);
 }
 
 .minimap__viewer{
@@ -135,7 +136,7 @@ body {
   left: 0;
   transform-origin: 0 0;
   z-index: 100;
-  border: 1px solid #0000009a;
+  border: 1px solid var(--text);
 }
 
 .minimap__content{
@@ -146,7 +147,7 @@ body {
   height: 100%;
   z-index: -1;
   transform-origin: 0 0;
-  border: 1px solid white;
+  border: 1px solid var(--base);
   
 }
 
