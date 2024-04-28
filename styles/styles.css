@@ -30,7 +30,7 @@ body {
 
 .navbar {
   background: var(--base);
-  font: bold 14px/1.4 'Open Sans', Arial, sans-serif;
+  font: bold 14px/1.4 "Open Sans", Arial, sans-serif;
   padding: 20px 0;
   text-align: center;
 }
@@ -79,16 +79,11 @@ body {
   left: 0;
 }
 
-img {
-  max-width: 500px;
-  height: auto;
-}
-
 .content {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .content section {
@@ -96,7 +91,7 @@ img {
   min-height: 600px;
   display: flex;
   justify-content: center;
-  padding: 2rem;
+  /* padding: 2rem; */
 }
 
 .container {
@@ -116,7 +111,44 @@ img {
   font-size: clamp(1px, 2.2vw, 20px);
   line-height: 1.6;
 }
+
+/* Minimap */
+.minimap__container{
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  min-width: 20px;
+  z-index: 100;
+  max-width: 10%;
+}
+
+.minimap__size{
+  position: relative;
+  z-index: 5;
+  border: 2px solid white;
+}
+
+.minimap__viewer{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+  z-index: 100;
+  border: 1px solid #0000009a;
+}
+
+.minimap__content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transform-origin: 0 0;
+  border: 1px solid white;
   
+}
 
 @media screen and (max-height: 300px) {
   ul {
