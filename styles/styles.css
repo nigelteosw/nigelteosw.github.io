@@ -130,6 +130,8 @@ body {
 .container p {
   font-size: clamp(1px, 2.2vw, 20px);
   line-height: 1.6;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .container span {
