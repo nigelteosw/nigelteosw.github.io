@@ -219,7 +219,7 @@ body {
   z-index: -1;
   transform-origin: 0 0;
   border: 1px solid var(--base);
-  
+  overflow-y: hidden;
 }
 
 @media screen and (max-height: 300px) {
