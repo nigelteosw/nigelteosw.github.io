@@ -1,7 +1,7 @@
 const posts = []
 
 const images = [
-    "../images/Nigel.JPG",
+    "../images/nigel.JPG",
     "../images/AzfarulMatin38.JPG",
     "../images/faberlous.JPG",
     "../images/bangkok-night.JPG",

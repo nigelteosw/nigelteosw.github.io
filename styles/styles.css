@@ -37,7 +37,6 @@ body {
   padding: 0;
   transition: background-color var(--slow-transition-duration), color var(--slow-transition-duration);
   overflow-x: hidden;
-  overflow-y: hidden;
 }
 
 .navbar {
