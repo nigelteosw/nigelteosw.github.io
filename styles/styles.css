@@ -37,6 +37,7 @@ body {
   padding: 0;
   transition: background-color var(--slow-transition-duration), color var(--slow-transition-duration);
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .navbar {
@@ -192,7 +193,6 @@ body {
   min-width: 20px;
   z-index: 100;
   max-width: 10%;
-  overflow-y: hidden;
 }
 
 .minimap__size{
