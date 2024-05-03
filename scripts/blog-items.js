@@ -1,12 +1,12 @@
 const posts = []
 
 const images = [
-    "/images/photos/nigel.JPG",
-    "/images/photos/AzfarulMatin38.JPG",
-    "/images/photos/faberlous.JPG",
-    "/images/photos/bangkok-night.JPG",
-    "/images/photos/pinatubo.PNG",
-    "/images/photos/concert.jpg"
+    "/images/nigel.JPG",
+    "/images/AzfarulMatin38.JPG",
+    "/images/faberlous.JPG",
+    "/images/bangkok-night.JPG",
+    "/images/pinatubo.PNG",
+    "/images/concert.jpg"
 ]
 
 let imageIndex = 0;
