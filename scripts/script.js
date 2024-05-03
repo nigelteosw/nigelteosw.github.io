@@ -1,4 +1,23 @@
 // script.js
+// Create a label element
+const label = document.createElement('label');
+label.classList.add('switch');
+
+// Create an input element
+const input = document.createElement('input');
+input.setAttribute('type', 'checkbox');
+
+// Create a span element
+const span = document.createElement('span');
+span.classList.add('slider');
+
+// Append the input and span elements to the label
+label.appendChild(input);
+label.appendChild(span);
+
+document.body.appendChild(label);
+
+
 let minimap = document.createElement("div");
 let minimapSize = document.createElement("div");
 let viewer = document.createElement("div");

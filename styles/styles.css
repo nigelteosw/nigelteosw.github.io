@@ -39,6 +39,13 @@ body {
   overflow-x: hidden;
 }
 
+.switch-container {
+  position: fixed;
+  top: 50px 0;
+  right: 10%;
+}
+
+
 .navbar {
   background: var(--base);
   font: bold 14px/1.4 "Open Sans", Arial, sans-serif;
