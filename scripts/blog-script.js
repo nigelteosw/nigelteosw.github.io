@@ -25,12 +25,18 @@ function generateMasonryGrid(columns, posts) {
         let image = document.createElement('img');
         image.classList.add('blog-image');
         image.src = post.image;
+        
         let hoverDiv = document.createElement('div');
         hoverDiv.classList.add('overlay');
+        
         let title = document.createElement('h3');
         title.innerText = post.title;
-        hoverDiv.appendChild(title);
 
+        let description = document.createElement('p');
+        description.innerText = post.description;
+
+        hoverDiv.appendChild(title);
+        hoverDiv.appendChild(description);
         
         postDiv.append(image, hoverDiv)
         div.appendChild(postDiv) 
