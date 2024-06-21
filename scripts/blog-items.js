@@ -1,35 +1,58 @@
 const posts = []
 
 const images = [
-    "../images/nigel.JPG",
-    "../images/AzfarulMatin38.JPG",
-    "../images/faberlous.JPG",
-    "../images/bangkok-night.JPG",
-    "../images/pinatubo.PNG",
-    "../images/concert.jpg"
+    "../images/photos/nigel.JPG",
+    "../images/photos/faberlous.JPG",
+    "../images/photos/housecomm.JPG",
+    "../images/photos/langtanglirung.JPG",
+    "../images/photos/kyanging.JPG",
+    "../images/photos/concert.jpg",
+    "../images/photos/pulai.JPG",
+    "../images/photos/artsweek2324.JPEG",
+    "../images/photos/pinatubojeep.JPG",
+    "../images/photos/pinatubobeach.JPG",
+    "../images/photos/pinatubo.JPG",
+    "../images/photos/bondingtrek.JPG",
+    "../images/photos/anambasboat.JPG",
+    "../images/photos/tembuconversationsasean2.JPG",
+    "../images/photos/tembuconversationsasean.JPG",
+    "../images/photos/openhouse.JPG",
+    "../images/photos/tstudios.JPG",
+    "../images/photos/tstudiosphotowalk.JPG",
+    "../images/photos/mountfaber.JPG",
+    "../images/photos/bangkok-night.JPG",
 ]
 
 const title = [
-    "Nigel",
-    "Azfarul Matin",
-    "Faberlous",
-    "Bangkok Night",
+    "Anambas Regency",
+    "NUS Rovers @ Mount Faber",
+    "Tancho House Committee",
+    "Langtang Lirung",
+    "Kyanging Gompa",
+    "NUS Symphony Orchestra",
+    "NUS Rovers @ Pulai",
+    "Tembusu Arts Week AY23/24 Sem 2",
+    "Pinatubo Jeep Ride",
     "Pinatubo",
-    "Concert"
+    "Pinatubo Crater Lake",
+    "NUS Rovers Bonding Trek",
+    "The Four Friends",
+    "Tembusu Conversations ASEAN",
+    "Tembusu Conversations ASEAN",
+    "Tembusu Open House",
+    "tStudios",
+    "tStudios Photo Walk",
+    "Mount Faber",
+    "Bangkok",
 ]
 
 const description = [
-    "Nigel is a great friend of mine. He is a very talented photographer.",
-    "Azfarul Matin is a great friend of mine. He is a very talented photographer.",
-    "Faberlous is a great friend of mine. He is a very talented photographer.",
-    "Bangkok Night is a great friend of mine. He is a very talented photographer.",
-    "Pinatubo is a great friend of mine. He is a very talented photographer.",
-    "Concert is a great friend of mine. He is a very talented photographer."
+
 ]
 
 let imageIndex = 0;
 
-for(let i = 1; i <= 80; i++){
+for(let i = 1; i <= images.length; i++){
     let item = {
         id: i,
         title: `${title[imageIndex]}`,
