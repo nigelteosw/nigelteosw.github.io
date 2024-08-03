@@ -61,14 +61,14 @@ body {
   display: flex;
   width: 500px;
   text-align: center;
-  justify-content: top;
+  justify-content: space-around;
   margin: 0 auto;
 }
 
 .navbar li {
   display: table-cell;
   position: relative;
-  padding: 15px 0;
+  padding: 15px 10px;
 }
 
 .navbar a {
