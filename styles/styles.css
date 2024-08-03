@@ -58,7 +58,7 @@ body {
 .navbar ul {
   padding: 0;
   list-style: none;
-  display: table;
+  display: flex;
   width: 500px;
   text-align: center;
   justify-content: top;
