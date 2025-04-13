@@ -6,7 +6,7 @@
   --muted: #aaaaaa; 
   --subtle: #a1a1aa; 
   --text: #ffffff; 
-  --highlight: #00ffff; 
+  --highlight:#c084fc;
 
   --slow-transition-duration: 1s;
   --fast-transition-duration: 0.3s;
@@ -158,6 +158,17 @@ img {
   line-height: 1.7;
   font-size: 1rem;
   color: var(--subtle);
+}
+
+.contact-text a {
+  color: var(--highlight); 
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-text a:hover {
+  color: var(--text); 
+  text-decoration: underline; 
 }
 
 
