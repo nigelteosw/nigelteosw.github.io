@@ -160,6 +160,36 @@ img {
   color: var(--subtle);
 }
 
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.project-link {
+  text-decoration: none;
+}
+
+.project-box {
+  background-color: transparent;
+}
+
+.project-title {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: var(--text);
+}
+
+.project-desc {
+  margin-top: 0.5rem;
+  color: #ccc;
+  line-height: 1.4;
+  font-size: 0.95rem;
+}
+
+
 .contact-text a {
   color: var(--highlight); 
   text-decoration: none;
