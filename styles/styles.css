@@ -180,11 +180,18 @@ img {
   font-weight: 500;
   font-size: 1.1rem;
   color: var(--text);
+  margin-bottom: 0.5rem;
 }
 
-.project-desc {
+.project-year {
+  font-size: 0.85rem;
+  color: var(--subtle);
+  font-weight: 400;
+}
+
+.project-desc strong {
   margin-top: 0.5rem;
-  color: #ccc;
+  color: var(--text);
   line-height: 1.4;
   font-size: 0.95rem;
 }
