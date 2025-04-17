@@ -183,6 +183,10 @@ img {
   margin-bottom: 0.5rem;
 }
 
+.project-title:hover {
+  text-decoration: underline;
+}
+
 .project-year {
   font-size: 0.85rem;
   color: var(--subtle);
