@@ -4,7 +4,7 @@ Welcome to my personal portfolio website — built with HTML, CSS, and Vanilla J
 
 ---
 
-## 🔗 Links
+## Links
 
 - [GitHub](https://github.com/nigelteosw)  
 - [LinkedIn](https://www.linkedin.com/in/nigelteosw)  
@@ -12,7 +12,7 @@ Welcome to my personal portfolio website — built with HTML, CSS, and Vanilla J
 
 ---
 
-## 🧑‍💻 About Me
+## About Me
 
 I'm a final-year Computer Science student at the National University of Singapore, with a passion for full stack web development and design.
 
@@ -25,15 +25,15 @@ Currently, I'm working as a **Developer and DevOps Intern at KPMG**, where I con
 
 Outside of tech, I love photography and hiking!
 
-## 📬 Contact Me
+## Contact Me
 
 I'm always open to new opportunities, collaborations, or just chatting with fellow creatives and developers.
 
-📧 Email: [nigelteosw@gmail.com](mailto:nigelteosw@gmail.com)  
-🔗 LinkedIn: [Connect with me](https://www.linkedin.com/in/nigelteosw)
+Email: [nigelteosw@gmail.com](mailto:nigelteosw@gmail.com)  
+LinkedIn: [Connect with me](https://www.linkedin.com/in/nigelteosw)
 
 ---
 
-> 💡 This site is built with pure HTML, CSS, and JavaScript — press `X` to toggle the theme!
+> This site is built with pure HTML, CSS, and JavaScript — press `X` to toggle the theme!
 
 © 2025 Nigel Teo
